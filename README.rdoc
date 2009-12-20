@@ -1,0 +1,11 @@
+= FixHtml
+
+Helper to make html valid
+
+Requires hpricot gem
+
+  config.gem 'hpricot'
+
+== Examples
+
+  fix_html '<div>1 < 2<br>hello world'
